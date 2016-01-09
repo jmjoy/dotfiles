@@ -1,0 +1,12 @@
+#+TITLE: dotfiles
+
+* Vim
+
+** Plugin manager
+Vundle [[https://github.com/VundleVim/Vundle.vim][https://github.com/VundleVim/Vundle.vim]]
+
+** Install
+
+#+BEGIN_SRC sh
+  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+#+END_SRC
