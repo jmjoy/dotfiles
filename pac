@@ -43,7 +43,8 @@ function FindProxyForURL(url, host) {
 		(shExpMatch(host, "*.googleapis.com")) ||
 		(shExpMatch(host, "*.ggpht.com")) ||
 		(shExpMatch(host, "*.googlevideo.com")) ||
-		(host == "12vpn.net")
+		(host == "12vpn.net") ||
+		(host == "golang.org") ||
 	) {
 		return "HTTPS hkgaa.securechromenetwork.com:443";
 	}
