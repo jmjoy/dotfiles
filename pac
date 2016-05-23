@@ -44,7 +44,9 @@ function FindProxyForURL(url, host) {
 		(shExpMatch(host, "*.ggpht.com")) ||
 		(shExpMatch(host, "*.googlevideo.com")) ||
 		(host == "12vpn.net") ||
-		(host == "golang.org")
+		(host == "golang.org") ||
+		(host == "hub.docker.com") ||
+		(shExpMatch(host, "*.mktoresp.com"))
 	) {
 		return "HTTPS hkgaa.securechromenetwork.com:443";
 	}
