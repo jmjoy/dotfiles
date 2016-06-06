@@ -47,7 +47,8 @@ function FindProxyForURL(url, host) {
 		(host == "golang.org") ||
 		(host == "hub.docker.com") ||
 		(shExpMatch(host, "*.mktoresp.com")) ||
-		(host == "www.yiiframework.com")
+		(host == "www.yiiframework.com") ||
+		(host == "fb.me")
 	) {
 		return "HTTPS hkgaa.securechromenetwork.com:443";
 	}
