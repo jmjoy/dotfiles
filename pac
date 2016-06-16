@@ -49,7 +49,8 @@ function FindProxyForURL(url, host) {
 		(shExpMatch(host, "*.mktoresp.com")) ||
 		(host == "www.yiiframework.com") ||
 		(host == "fb.me") ||
-		(shExpMatch(host, "*.cloudflare.com"))
+		(shExpMatch(host, "*.cloudflare.com")) ||
+		(shExpMatch(host, "*.wikipedia.org"))
 	) {
 		return "HTTPS hkgaa.securechromenetwork.com:443";
 	}
