@@ -40,6 +40,7 @@ function FindProxyForURL(url, host) {
 		(shExpMatch(host, "*.gstatic.com")) ||
 		(shExpMatch(host, "*.googleusercontent.com")) ||
 		(shExpMatch(host, "*.google.com")) ||
+		(shExpMatch(host, "*.google.com.*")) ||
 		(shExpMatch(host, "*.googleapis.com")) ||
 		(shExpMatch(host, "*.ggpht.com")) ||
 		(shExpMatch(host, "*.googlevideo.com")) ||
