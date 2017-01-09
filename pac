@@ -51,7 +51,8 @@ function FindProxyForURL(url, host) {
 		(host == "www.yiiframework.com") ||
 		(host == "fb.me") ||
 		(shExpMatch(host, "*.cloudflare.com")) ||
-		(shExpMatch(host, "*.wikipedia.org"))
+		(shExpMatch(host, "*.wikipedia.org")) ||
+		(shExpMatch(host, "*.amazonaws.org"))
 	) {
 		return "HTTPS hkgaa.securechromenetwork.com:443";
 	}
