@@ -43,6 +43,7 @@ function FindProxyForURL(url, host) {
 		(shExpMatch(host, "*.googleapis.com")) ||
 		(shExpMatch(host, "*.ggpht.com")) ||
 		(shExpMatch(host, "*.googlevideo.com")) ||
+		(shExpMatch(host, "*.google-analytics.com")) ||
 		(host == "12vpn.net") ||
 		(host == "golang.org") ||
 		(host == "hub.docker.com") ||
