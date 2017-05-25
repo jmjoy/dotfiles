@@ -55,7 +55,8 @@ function FindProxyForURL(url, host) {
 		(shExpMatch(host, "*.wikipedia.org")) ||
 		(shExpMatch(host, "*.amazonaws.org"))
 	) {
-		return "HTTPS hkgaa.securechromenetwork.com:443";
+	
+		return "HTTPS hkgjab.securechromenetwork.com:443";
 	}
 
 }
